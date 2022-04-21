@@ -1,14 +1,10 @@
 {
-  "name": "random-messages",
+  "name": "@edithbalbouze/random-messages-npm",
   "version": "1.0.0",
   "description": "random de mensajes",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/edithbalbouze/npm.git"
   },
   "keywords": [
     "javascript",
@@ -18,11 +14,19 @@
   "author": "Edith Balbouze <ebalbouze@medine.dev>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msgs": "bin/global.js"
   },
   "preferGlobal": true,
-  "bugs": {
-    "url": "https://github.com/edithbalbouze/npm/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edithbalbouze/random-messages-npm.git"
   },
-  "homepage": "https://github.com/edithbalbouze/npm#readme"
+  "bugs": {
+    "url": "https://github.com/edithbalbouze/random-messages-npm/issues"
+  },
+  "homepage": "https://github.com/edithbalbouze/random-messages-npm#readme",
+  "dependencies": {
+    "random-messages-npm": "^1.0.0"
+  },
+  "devDependencies": {}
 }
