@@ -1,0 +1,24 @@
+Primero se debe probar de forma local.
+
+pwd
+sudo npm link
+#Se ejecuta la función
+random-msg
+
+
+Otra forma de instalar el paquete
+
+sudo npm install -g ~/Estudio/GestionDeDependenciasYPaquetesConNPM/random-messages/
+
+
+Publicar paquete
+-npm link
+Nos crea una referencia a este paquete en la carpeta global (.npm-global), hacia los servidores de npm de forma natural.
+-random-msg
+ejecutamos nuestro paquete, que este se encuentra de forma global
+-npm install -g /mnt/c/Users/USUARIO/Documents/Projects/random-messages
+Nos ayudara a instalar las actualizaciones que hagamos en el proyecto hasta npm
+-npm adduser
+Hacer login en la terminal para conectarme a npm
+-npm publish
+Nos permite leer la configuración del package.json y con ello establecer las configuración a npmjs
