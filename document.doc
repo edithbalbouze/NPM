@@ -22,3 +22,11 @@ Nos ayudara a instalar las actualizaciones que hagamos en el proyecto hasta npm
 Hacer login en la terminal para conectarme a npm
 -npm publish
 Nos permite leer la configuración del package.json y con ello establecer las configuración a npmjs
+
+npm publish --access=public    esto es para cuando se muestra el erro E402 temas de permiso
+
+para el error E403 lo corregimos con -> npm init --scope=@<my_user>
+
+npm version patch    cuando el cambio es un parche al proyecto
+npm version minor    cuando es un cambio menor en el proyecto
+npm version major    cuando es un cambio mayor en el proyecto
